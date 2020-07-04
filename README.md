@@ -28,11 +28,13 @@ Para este punto fue necesario importar el paquete integrate de la librería scip
 3. Simular un canal ruidoso del tipo AWGN (ruido aditivo blanco gaussiano) con una relación señal a ruido (SNR) desde -2 hasta 3 dB.
 Se creó un arreglo de numpy con los valores entre -2 dB y 3 dB el cual corresponde a los valores de SNR, además se crearon las señales ruidosas utilizando la función generadora de muestras aleatorias de numpy (numpy.random.normal), para esto último fue necesario determinar en primera instancia los valores de mu y sigma, mu se designó igual a cero y sigma se calculó como se muestra a continuación: 
 
-`<# Potencia del ruido (Pn) para SNR y potencia de la señal (Ps) dadas
+    
+    ```# Potencia del ruido (Pn) para SNR y potencia de la señal (Ps) dadas
     Pn = Ps / (10**(SNR / 10))
     
     # Desviación estándar del ruido
-    sigma = np.sqrt(Pn)>`
+    sigma = np.sqrt(Pn)
+```
 
 Con esto fue posible generar los valores aleatorios que corresponden al ruido, estos valores se suman a la señal original para obtener el canal ruidoso. A continuación se muestra el gráfico de las señales ruidosas para el rango de [-2.3] dB.
 
