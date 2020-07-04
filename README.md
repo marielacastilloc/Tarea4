@@ -52,8 +52,8 @@ Para graficar la densidad espectral de potencia de la señal antes del canal rui
     plt.ylabel('Densidad espectral de potencia / V**2/Hz')
     ```
 y para la densidad espectral de la señal después del canal ruidoso las siguientes: 
-    ```
-    fw, PSD = signal.welch(Rx, fm, nperseg=1024)
+
+    ```fw, PSD = signal.welch(Rx, fm, nperseg=1024)
     plt.figure(4)
     plt.semilogy(fw, PSD)
     plt.xlabel('Frecuencia / Hz')
