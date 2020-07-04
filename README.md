@@ -18,7 +18,7 @@ Para este punto fue necesario importar el paquete integrate de la librería scip
 </p>
 
 <p align="center">
-  <img src="https://render.githubusercontent.com/render/math?math=\int \frac{P_{inst}}{N\cotT} dt">
+  <img src="https://render.githubusercontent.com/render/math?math=\int \frac{P_{inst}}{N\dotT} dt">
 </p>
 
 <p align="center">
