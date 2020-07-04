@@ -11,7 +11,16 @@ Con la gráfica de la señal modulada se observan los cambios que ocurren en la 
 
 2. (10 %) Calcular la potencia promedio de la señal modulada generada.
 
-Para este punto fue necesario importar el paquete integrate de la librería scipy ya que la potencia promedio se obtiene integrando la potencia instántanea y diviendo este valor entre el número de bits por el período. 
+Para este punto fue necesario importar el paquete integrate de la librería scipy ya que la potencia promedio se obtiene integrando la potencia instántanea y diviendo este valor entre el número de bits por el período. A continuación se muestran las ecuaciones necesarias para el cálculo: 
+
+<p align="center">
+  <img src="https://render.githubusercontent.com/render/math?math=P_{inst} = senal^2">
+</p>
+
+<p align="center">
+  <img src="https://render.githubusercontent.com/render/math?math=\int \frac{P_{inst}}{N\cotT} dt">
+</p>
+
 <p align="center">
   <img src="https://render.githubusercontent.com/render/math?math=P_{prom} = 0.49000098009997023">  
 </p>
