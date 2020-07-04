@@ -174,7 +174,7 @@ for i in range(6):
     err = np.sum(np.abs(bits - bitsRx))
     BER[i] = err/N
     
-    print('Cuando SNR es: ', SNR, 'el ruido es: ', BER[i])
+    print('Cuando SNR = ', SNR, 'el ruido es ', BER[i])
 
     
 
