@@ -30,10 +30,11 @@ Se creó un arreglo de numpy con los valores entre -2 dB y 3 dB el cual correspo
 
 `<# Potencia del ruido (Pn) para SNR y potencia de la señal (Ps) dadas
     Pn = Ps / (10**(SNR / 10))
-
+    
     # Desviación estándar del ruido
     sigma = np.sqrt(Pn)>`
 
+Con esto fue posible generar los valores aleatorios que corresponden al ruido, estos valores se suman a la señal original para obtener el canal ruidoso. A continuación se muestra el gráfico de las señales ruidosas para el rango de [-2.3] dB.
 
-    # Desviación estándar del ruido
-    sigma = np.sqrt(Pn)
+![GitHub Logo](señales_ruidosas.png) 
+
