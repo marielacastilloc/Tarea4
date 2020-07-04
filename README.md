@@ -7,3 +7,11 @@ Inicialmente se realiza la lectura del archivo bits10k.csv proporcionado mediant
 
 ![GitHub Logo](onda.png)          ![GitHub Logo](primerosbits.png)
 
+Con la gráfica de la señal modulada se observan los cambios que ocurren en la fase de la onda sinusoidal cuando ocurren cambios en la secuencia de los bits, por lo que se confirma una modulación BPSK correcta. 
+
+2. (10 %) Calcular la potencia promedio de la señal modulada generada.
+
+Para este punto fue necesario importar el paquete integrate de la librería scipy ya que la potencia promedio se obtiene integrando la potencia instántanea y diviendo este valor entre el número de bits por el período. 
+<p align="center">
+  <img src="https://render.githubusercontent.com/render/math?math=P_{prom} = 0.49000098009997023">  
+</p>
