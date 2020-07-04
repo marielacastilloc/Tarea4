@@ -40,3 +40,26 @@ Con esto fue posible generar los valores aleatorios que corresponden al ruido, e
 
 ![GitHub Logo](senalesruidosas.png) 
 
+4. Graficar la densidad espectral de potencia de la señal con el método de Welch (SciPy), antes y después del canal ruidoso.
+
+Para graficar la densidad espectral de potencia de la señal antes del canal ruidoso se utilizaron las siguientes líneas: 
+    
+    ```    fw, PSD = signal.welch(senal, fm, nperseg=1024)
+    plt.figure(3)
+    plt.semilogy(fw, PSD)
+    plt.xlabel('Frecuencia / Hz')
+    plt.ylabel('Densidad espectral de potencia / V**2/Hz')
+    ```
+y para la densidad espectral de la señal después del canal ruidoso las siguientes: 
+    ```    fw, PSD = signal.welch(Rx, fm, nperseg=1024)
+    plt.figure(4)
+    plt.semilogy(fw, PSD)
+    plt.xlabel('Frecuencia / Hz')
+    plt.ylabel('Densidad espectral de potencia / V**2/Hz')
+    ```
+Con ello se generaron las siguientes figuras: 
+
+![GitHub Logo](Densidad_espectral_antes.png)        ![GitHub Logo](Densidad_espectral_despues.png) 
+
+
+
