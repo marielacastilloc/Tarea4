@@ -101,4 +101,8 @@ Se observa una tasa de error con tendencia marcada hacia cero, disminuyendo conf
 
 *6.Graficar BER versus SNR
 
-![GitHub Logo](BERVsSNR.png) 
+Esta gráfica corresponde a BER versus SNR, para SNR entre -2 y 3 dB
+
+![GitHub Logo](BerVsSNR.png) 
+
+
