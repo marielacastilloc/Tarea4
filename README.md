@@ -90,12 +90,17 @@ Seguidamente se calculó la tasa de error mediante las siguientes líneas:
    
 Los resultados fueron: 
 
-*Cuando SNR = -2 el ruido es 0.0018001800180018
-*Cuando SNR = -1 el ruido es 0.00040004000400040005
-*Cuando SNR = 0 el ruido es 0.0
-*Cuando SNR = 1 el ruido es 0.0
-*Cuando SNR = 2 el ruido es 0.0
-*Cuando SNR = 3 el ruido es 0.0
+* Cuando SNR = -2 el ruido es 0.0018001800180018
+
+* Cuando SNR = -1 el ruido es 0.00040004000400040005
+
+* Cuando SNR = 0 el ruido es 0.0 
+
+* Cuando SNR = 1 el ruido es 0.0
+
+* Cuando SNR = 2 el ruido es 0.0
+
+* Cuando SNR = 3 el ruido es 0.0
 
 Se observa una tasa de error con tendencia marcada hacia cero, disminuyendo conforme aumenta el valor de SNR. 
 
